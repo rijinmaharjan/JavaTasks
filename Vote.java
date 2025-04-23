@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 public class Vote {
     public static void main(String[] args) {
@@ -7,3 +8,4 @@ public class Vote {
         System.out.println((a>=18)? "You are eligible":"not eligible");
     }
 }
+
