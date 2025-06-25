@@ -36,4 +36,14 @@ public class QueueFromArray {
             return value;
         }
     }
+    public int peek(){
+        if(isEmpty()){
+            System.out.println("Queue underflow");
+            return -999;
+
+        }
+        else{
+            return queue[front];
+        }
+    }
 }
