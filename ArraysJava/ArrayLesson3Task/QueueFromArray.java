@@ -26,4 +26,14 @@ public class QueueFromArray {
 
         }
     }
+    public int dequeue(){
+        if(isEmpty()){
+            System.out.println("Queue underflow");
+            return -99;
+        }else{
+            int value= queue[front];
+            front++;
+            return value;
+        }
+    }
 }
