@@ -15,5 +15,15 @@ public class QueueFromArray {
     public boolean isFull(){
         return rear==capacity-1;
     }
+    public void enqueue (int value){
+        if (isFull()){
+            System.out.println("Queue overflow");
+        }
+        else{
+            rear++;
+            queue[rear]=value;
+            System.out.println("Enqueued : "+ value);
 
+        }
+    }
 }
