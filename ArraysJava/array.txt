@@ -1,0 +1,15 @@
+int [] array 1 (one dimentional) (one row and multiple columns)
+int [] [] array 2 (multi dimentional) (multiple row and multiple columns)
+
+need to make object
+like
+array1=new int[5]; -0,1,2,3,4
+or
+int [] array1= new int[5];
+
+or direct value 
+int [] array1={0,1,2,3,4}
+
+needs to have same datatype for all values in array
+
+int index0 = array1[0];
