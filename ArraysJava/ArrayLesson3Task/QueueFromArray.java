@@ -9,5 +9,11 @@ public class QueueFromArray {
         front=0;
         rear=-1;
     }
-    
+    public boolean isEmpty(){
+        return front>rear;
+    }
+    public boolean isFull(){
+        return rear==capacity-1;
+    }
+
 }
